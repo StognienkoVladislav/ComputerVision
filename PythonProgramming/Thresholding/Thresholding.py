@@ -12,8 +12,8 @@ gaus = cv2.adaptiveThreshold(grayscaled, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv
 
 cv2.imshow('original', img)
 
-cv2.imshow('threshold', threshold)
-cv2.imshow('threshold2', threshold2)
+#cv2.imshow('threshold', threshold)
+#cv2.imshow('threshold2', threshold2)
 cv2.imshow('gaus', gaus)
 
 cv2.waitKey(0)
