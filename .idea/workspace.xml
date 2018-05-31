@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab7a285d-52ce-4a05-a2a5-3d72a16abc0b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/BGR_from_bytes.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/camera_frames.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/gray.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/read_write_video.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/reading_writing_image.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PACKT/data/images.jpeg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/cameo.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/capture_manager.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/display_camera_frames.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/display_images_in_window.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,6 +32,7 @@
     <SUITE FILE_PATH="coverage/OpenCV$colorFiltering.coverage" NAME="colorFiltering Coverage Results" MODIFIED="1513856262277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramming/ColorFiltering" />
     <SUITE FILE_PATH="coverage/OpenCV$script_.coverage" NAME="script  Coverage Results" MODIFIED="1512155512222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramming/Video" />
     <SUITE FILE_PATH="coverage/OpenCV$setup.coverage" NAME="setup Coverage Results" MODIFIED="1512385121556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/gns3-legacy-GNS3-0.8.7" />
+    <SUITE FILE_PATH="coverage/ComputerVision$display_images_in_window.coverage" NAME="display_images_in_window Coverage Results" MODIFIED="1527770551392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -69,12 +68,82 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="camera_frames.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="camera_frames.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/camera_frames.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            <state relative-caret-position="432">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="display_images_in_window.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/display_images_in_window.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#1#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="display_camera_frames.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/display_camera_frames.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="capture_manager.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/capture_manager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="167" column="0" lean-forward="true" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+              <folding>
+                <element signature="e#74#4262#0" expanded="false" />
+                <element signature="e#183#642#0" expanded="false" />
+                <element signature="e#689#709#0" expanded="false" />
+                <element signature="e#769#860#0" expanded="false" />
+                <element signature="e#808#860#0" expanded="false" />
+                <element signature="e#905#1032#0" expanded="false" />
+                <element signature="e#1086#1124#0" expanded="false" />
+                <element signature="e#1178#1216#0" expanded="false" />
+                <element signature="e#1252#1551#0" expanded="false" />
+                <element signature="e#1586#2829#0" expanded="false" />
+                <element signature="e#1656#1705#0" expanded="false" />
+                <element signature="e#1804#1849#0" expanded="false" />
+                <element signature="e#2013#2122#0" expanded="false" />
+                <element signature="e#2257#2490#0" expanded="false" />
+                <element signature="e#2302#2412#0" expanded="false" />
+                <element signature="e#2578#2662#0" expanded="false" />
+                <element signature="e#2875#2965#0" expanded="false" />
+                <element signature="e#3097#3225#0" expanded="false" />
+                <element signature="e#3267#3419#0" expanded="false" />
+                <element signature="e#3462#4262#0" expanded="false" />
+                <element signature="e#3560#4217#0" expanded="false" />
+                <element signature="e#3645#3944#0" expanded="false" />
+                <element signature="e#3761#3878#0" expanded="false" />
+                <element signature="e#3761#3804#0" expanded="false" />
+                <element signature="e#3965#4084#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cameo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/cameo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+              <folding>
+                <element signature="e#1#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,6 +190,10 @@
         <option value="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/BGR_from_bytes.py" />
         <option value="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/read_write_video.py" />
         <option value="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/camera_frames.py" />
+        <option value="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/display_images_in_window.py" />
+        <option value="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/display_camera_frames.py" />
+        <option value="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/capture_manager.py" />
+        <option value="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/cameo.py" />
       </list>
     </option>
   </component>
@@ -212,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BGR_from_bytes">
+  <component name="RunManager" selected="Python.display_images_in_window">
     <configuration name="BGR_from_bytes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,6 +300,25 @@
       <module name="OpenCV" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/BGR_from_bytes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="display_images_in_window" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OpenCV" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/display_images_in_window.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,39 +381,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="scipy" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="OpenCV" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/scipy_example.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.scipy" />
-      <item index="1" class="java.lang.String" itemvalue="Python.harris_corner_detector" />
-      <item index="2" class="java.lang.String" itemvalue="Python.reading_writing_image" />
-      <item index="3" class="java.lang.String" itemvalue="Python.gray" />
-      <item index="4" class="java.lang.String" itemvalue="Python.BGR_from_bytes" />
+      <item index="0" class="java.lang.String" itemvalue="Python.harris_corner_detector" />
+      <item index="1" class="java.lang.String" itemvalue="Python.reading_writing_image" />
+      <item index="2" class="java.lang.String" itemvalue="Python.gray" />
+      <item index="3" class="java.lang.String" itemvalue="Python.BGR_from_bytes" />
+      <item index="4" class="java.lang.String" itemvalue="Python.display_images_in_window" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.BGR_from_bytes" />
-        <item index="1" class="java.lang.String" itemvalue="Python.gray" />
-        <item index="2" class="java.lang.String" itemvalue="Python.reading_writing_image" />
-        <item index="3" class="java.lang.String" itemvalue="Python.harris_corner_detector" />
-        <item index="4" class="java.lang.String" itemvalue="Python.scipy" />
+        <item index="0" class="java.lang.String" itemvalue="Python.display_images_in_window" />
+        <item index="1" class="java.lang.String" itemvalue="Python.BGR_from_bytes" />
+        <item index="2" class="java.lang.String" itemvalue="Python.gray" />
+        <item index="3" class="java.lang.String" itemvalue="Python.reading_writing_image" />
+        <item index="4" class="java.lang.String" itemvalue="Python.harris_corner_detector" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +424,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -359,7 +431,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35261402" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26397344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26397344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36469287" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -392,28 +464,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PythonProgramming/Video/video.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlayingVideoFromFile.py" />
-    <entry file="file://$PROJECT_DIR$/Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PlayingVideoFromFile.py" />
     <entry file="file://$PROJECT_DIR$/Drawing.py" />
     <entry file="file://$PROJECT_DIR$/PythonProgramming/Images/watchgray.png" />
@@ -687,9 +737,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/camera_frames.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        <state relative-caret-position="432">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/display_images_in_window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/display_camera_frames.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/capture_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="167" column="0" lean-forward="true" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+          <folding>
+            <element signature="e#74#4262#0" expanded="false" />
+            <element signature="e#183#642#0" expanded="false" />
+            <element signature="e#689#709#0" expanded="false" />
+            <element signature="e#769#860#0" expanded="false" />
+            <element signature="e#808#860#0" expanded="false" />
+            <element signature="e#905#1032#0" expanded="false" />
+            <element signature="e#1086#1124#0" expanded="false" />
+            <element signature="e#1178#1216#0" expanded="false" />
+            <element signature="e#1252#1551#0" expanded="false" />
+            <element signature="e#1586#2829#0" expanded="false" />
+            <element signature="e#1656#1705#0" expanded="false" />
+            <element signature="e#1804#1849#0" expanded="false" />
+            <element signature="e#2013#2122#0" expanded="false" />
+            <element signature="e#2257#2490#0" expanded="false" />
+            <element signature="e#2302#2412#0" expanded="false" />
+            <element signature="e#2578#2662#0" expanded="false" />
+            <element signature="e#2875#2965#0" expanded="false" />
+            <element signature="e#3097#3225#0" expanded="false" />
+            <element signature="e#3267#3419#0" expanded="false" />
+            <element signature="e#3462#4262#0" expanded="false" />
+            <element signature="e#3560#4217#0" expanded="false" />
+            <element signature="e#3645#3944#0" expanded="false" />
+            <element signature="e#3761#3878#0" expanded="false" />
+            <element signature="e#3761#3804#0" expanded="false" />
+            <element signature="e#3965#4084#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/cameo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
