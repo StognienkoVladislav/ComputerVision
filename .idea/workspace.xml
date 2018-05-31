@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab7a285d-52ce-4a05-a2a5-3d72a16abc0b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/grayscale.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/matplotlib.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/pil.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/OpenCV.iml" afterPath="$PROJECT_DIR$/.idea/OpenCV.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/scipy_example.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/averaging_images.py" afterPath="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/averaging_images.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,6 +25,7 @@
     <SUITE FILE_PATH="coverage/OpenCV$setup.coverage" NAME="setup Coverage Results" MODIFIED="1512385121556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/gns3-legacy-GNS3-0.8.7" />
     <SUITE FILE_PATH="coverage/ComputerVision$matplotlib.coverage" NAME="matplotlib Coverage Results" MODIFIED="1527759071784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing" />
     <SUITE FILE_PATH="coverage/ComputerVision$grayscale.coverage" NAME="grayscale Coverage Results" MODIFIED="1527759578186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing" />
+    <SUITE FILE_PATH="coverage/ComputerVision$scipy.coverage" NAME="scipy Coverage Results" MODIFIED="1527764715212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -43,13 +41,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grayscale.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="grayscale.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/grayscale.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+            <state relative-caret-position="18">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="e#1#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pil.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/pil.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="averaging_images.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/averaging_images.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,6 +81,18 @@
             <state relative-caret-position="-1349">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scipy_example.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/scipy_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <element signature="e#1#20#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,6 +130,9 @@
         <option value="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/pil.py" />
         <option value="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/matplotlib.py" />
         <option value="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/grayscale.py" />
+        <option value="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/averaging_images.py" />
+        <option value="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/scipy.py" />
+        <option value="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/scipy_example.py" />
       </list>
     </option>
   </component>
@@ -186,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.grayscale">
+  <component name="RunManager" selected="Python.scipy">
     <configuration name="Gradients" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,25 +236,6 @@
       <module name="OpenCV" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonProgramming/ColorFiltering/Gradients.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="colorFiltering" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonProgramming/ColorFiltering" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="OpenCV" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonProgramming/ColorFiltering/colorFiltering.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,20 +298,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="scipy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OpenCV" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/scipy_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.colorFiltering" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Gradients" />
-      <item index="2" class="java.lang.String" itemvalue="Python.pil" />
-      <item index="3" class="java.lang.String" itemvalue="Python.matplotlib" />
-      <item index="4" class="java.lang.String" itemvalue="Python.grayscale" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Gradients" />
+      <item index="1" class="java.lang.String" itemvalue="Python.pil" />
+      <item index="2" class="java.lang.String" itemvalue="Python.matplotlib" />
+      <item index="3" class="java.lang.String" itemvalue="Python.grayscale" />
+      <item index="4" class="java.lang.String" itemvalue="Python.scipy" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.grayscale" />
-        <item index="1" class="java.lang.String" itemvalue="Python.matplotlib" />
-        <item index="2" class="java.lang.String" itemvalue="Python.pil" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Gradients" />
-        <item index="4" class="java.lang.String" itemvalue="Python.colorFiltering" />
+        <item index="0" class="java.lang.String" itemvalue="Python.scipy" />
+        <item index="1" class="java.lang.String" itemvalue="Python.grayscale" />
+        <item index="2" class="java.lang.String" itemvalue="Python.matplotlib" />
+        <item index="3" class="java.lang.String" itemvalue="Python.pil" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Gradients" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +364,7 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20467186" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20467186" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35261402" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -366,20 +401,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PythonProgramming/Video/script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonProgramming/Video/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonProgramming/Video/video.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -624,16 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/pil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <element signature="e#1#22#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/matplotlib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
@@ -649,12 +660,40 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/averaging_images.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/grayscale.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/pil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/scipy_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
