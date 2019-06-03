@@ -1,55 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab7a285d-52ce-4a05-a2a5-3d72a16abc0b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/00-puppy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/Denis_Mukwege.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/Logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/Nadia_Murad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/ReceiptSwiss.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/bank_note_data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/bricks.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/car_plate.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/cartoon_receipt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/chessboard_mat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/coins_on_white.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/crossword.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/damien_hirst_dot.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/dog_backpack.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/dog_backpack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/dot_grid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/finger_move.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/five_shapes.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/flat_chessboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/giraffes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/gorilla.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/hand_move.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/horse.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/internal_external.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/lucky_charms.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/many_cereals.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/overlap_coins.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/pennies.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/rainbow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/real_chessboard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/reeses_puffs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/road_image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/sammy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/sammy_face.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/sammy_noise.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/separate_coins.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/solvay_conference.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/sudoku.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/uspassport.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/video_capture.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/watermark_no_copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/data/wood_detail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/work_with_images_numpy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/OpenCV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OpenCV.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ab7a285d-52ce-4a05-a2a5-3d72a16abc0b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -358,7 +310,7 @@
       <option name="presentableId" value="Default" />
       <updated>1505060308536</updated>
       <workItem from="1559553460628" duration="851000" />
-      <workItem from="1559576389683" duration="2984000" />
+      <workItem from="1559576389683" duration="3243000" />
     </task>
     <task id="LOCAL-00001" summary="Thresholding">
       <created>1512296948216</created>
@@ -371,13 +323,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3835000" />
+    <option name="totallyTimeSpent" value="4094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27031508" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27031508" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -388,7 +339,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.35261402" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32810867" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32810867" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
