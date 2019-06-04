@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab7a285d-52ce-4a05-a2a5-3d72a16abc0b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/cv2_separete_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/drawing_on_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/drawing_with_mouse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/drawing_with_mouse_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,12 +24,14 @@
     <SUITE FILE_PATH="coverage/OpenCV$script_.coverage" NAME="script  Coverage Results" MODIFIED="1512155512222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramming/Video" />
     <SUITE FILE_PATH="coverage/ComputerVision$gray.coverage" NAME="gray Coverage Results" MODIFIED="1527768691574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs" />
     <SUITE FILE_PATH="coverage/ComputerVision$matplotlib.coverage" NAME="matplotlib Coverage Results" MODIFIED="1527759071784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing" />
+    <SUITE FILE_PATH="coverage/ComputerVision$drawing_with_mouse.coverage" NAME="drawing_with_mouse Coverage Results" MODIFIED="1559662125914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV" />
     <SUITE FILE_PATH="coverage/ComputerVision$drawing_on_image.coverage" NAME="drawing_on_image Coverage Results" MODIFIED="1559660386187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV" />
     <SUITE FILE_PATH="coverage/ComputerVision$BGR_from_bytes.coverage" NAME="BGR_from_bytes Coverage Results" MODIFIED="1527769003355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs" />
     <SUITE FILE_PATH="coverage/ComputerVision$cv2_separete_image.coverage" NAME="cv2_separete_image Coverage Results" MODIFIED="1559659463782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV" />
     <SUITE FILE_PATH="coverage/OpenCV$Gradients.coverage" NAME="Gradients Coverage Results" MODIFIED="1513856355652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramming/ColorFiltering" />
     <SUITE FILE_PATH="coverage/ComputerVision$harris_corner_detector.coverage" NAME="harris_corner_detector Coverage Results" MODIFIED="1527766845402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`ReillyCV/LocalImageDescriptors" />
     <SUITE FILE_PATH="coverage/OpenCV$Thresholding.coverage" NAME="Thresholding Coverage Results" MODIFIED="1513856157600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramming/Thresholding" />
+    <SUITE FILE_PATH="coverage/ComputerVision$drawing_with_mouse_2.coverage" NAME="drawing_with_mouse_2 Coverage Results" MODIFIED="1559662869438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV" />
     <SUITE FILE_PATH="coverage/ComputerVision$pil.coverage" NAME="pil Coverage Results" MODIFIED="1527758232634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing" />
     <SUITE FILE_PATH="coverage/OpenCV$Test.coverage" NAME="Test Coverage Results" MODIFIED="1512155556837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/OpenCV$setup.coverage" NAME="setup Coverage Results" MODIFIED="1512385121556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/gns3-legacy-GNS3-0.8.7" />
@@ -52,17 +54,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/cv2_separete_image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/drawing_on_image.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#1#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/drawing_with_mouse.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" selection-end-line="33" />
+              <folding>
+                <element signature="e#1#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/drawing_on_image.py">
+        <entry file="file://$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/drawing_with_mouse_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            <state relative-caret-position="320">
+              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
               <folding>
                 <element signature="e#1#11#0" expanded="true" />
               </folding>
@@ -125,6 +151,8 @@
         <option value="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/flip_and_resize.py" />
         <option value="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/cv2_separete_image.py" />
         <option value="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/drawing_on_image.py" />
+        <option value="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/drawing_with_mouse.py" />
+        <option value="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/drawing_with_mouse_2.py" />
       </list>
     </option>
   </component>
@@ -200,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.drawing_on_image">
+  <component name="RunManager" selected="Python.drawing_with_mouse_2">
     <configuration name="cv2_separete_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,28 +243,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/cv2_separete_image.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="display_images_in_window" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/display_images_in_window.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,6 +273,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="drawing_with_mouse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/drawing_with_mouse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="drawing_with_mouse_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/drawing_with_mouse_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -289,42 +339,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="work_with_images_numpy" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-ML" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-ML/NumpyBaseForImages/work_with_images_numpy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.display_images_in_window" />
-      <item itemvalue="Python.work_with_images_numpy" />
       <item itemvalue="Python.sample" />
       <item itemvalue="Python.cv2_separete_image" />
       <item itemvalue="Python.drawing_on_image" />
+      <item itemvalue="Python.drawing_with_mouse" />
+      <item itemvalue="Python.drawing_with_mouse_2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.drawing_with_mouse_2" />
+        <item itemvalue="Python.drawing_with_mouse" />
         <item itemvalue="Python.drawing_on_image" />
         <item itemvalue="Python.cv2_separete_image" />
         <item itemvalue="Python.sample" />
-        <item itemvalue="Python.work_with_images_numpy" />
-        <item itemvalue="Python.display_images_in_window" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +369,7 @@
       <workItem from="1559553460628" duration="851000" />
       <workItem from="1559576389683" duration="3631000" />
       <workItem from="1559581987684" duration="13000" />
-      <workItem from="1559654189844" duration="6000000" />
+      <workItem from="1559654189844" duration="7667000" />
     </task>
     <task id="LOCAL-00001" summary="Thresholding">
       <created>1512296948216</created>
@@ -354,17 +382,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10495000" />
+    <option name="totallyTimeSpent" value="12162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2769486" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20376176" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20376176" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39967105" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -379,7 +408,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.36428967" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.36428967" />
       <window_info anchor="right" id="Data View" order="4" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
@@ -702,17 +731,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/cv2_separete_image.py">
+    <entry file="file://$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/drawing_on_image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/drawing_on_image.py">
+    <entry file="file://$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/cv2_separete_image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/drawing_with_mouse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="33" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/drawing_with_mouse_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding>
             <element signature="e#1#11#0" expanded="true" />
           </folding>
