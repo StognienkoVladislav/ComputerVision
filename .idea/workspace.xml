@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab7a285d-52ce-4a05-a2a5-3d72a16abc0b" name="Default" comment="" />
+    <list default="true" id="ab7a285d-52ce-4a05-a2a5-3d72a16abc0b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/flip_and_resize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenCV-ML/NumpyBaseForImages/work_with_images_numpy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenCV-ML/numpy_sample.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV-ML/NumpyBaseForImages/numpy_sample.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenCV-ML/work_with_images_numpy.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +18,10 @@
     <SUITE FILE_PATH="coverage/ComputerVision$grayscale.coverage" NAME="grayscale Coverage Results" MODIFIED="1527759578186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing" />
     <SUITE FILE_PATH="coverage/OpenCV$Cam.coverage" NAME="Cam Coverage Results" MODIFIED="1512155498190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramming/Video" />
     <SUITE FILE_PATH="coverage/OpenCV$colorFiltering.coverage" NAME="colorFiltering Coverage Results" MODIFIED="1513856262277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramming/ColorFiltering" />
+    <SUITE FILE_PATH="coverage/ComputerVision$work_with_images_numpy.coverage" NAME="work_with_images_numpy Coverage Results" MODIFIED="1559656935479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML" />
     <SUITE FILE_PATH="coverage/ComputerVision$scipy.coverage" NAME="scipy Coverage Results" MODIFIED="1527764715212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing" />
     <SUITE FILE_PATH="coverage/OpenCV$Templates.coverage" NAME="Templates Coverage Results" MODIFIED="1513799549741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramming/TemplateMatching" />
+    <SUITE FILE_PATH="coverage/ComputerVision$sample.coverage" NAME="sample Coverage Results" MODIFIED="1559658048874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV" />
     <SUITE FILE_PATH="coverage/ComputerVision$reading_writing_image.coverage" NAME="reading_writing_image Coverage Results" MODIFIED="1527768447641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs" />
     <SUITE FILE_PATH="coverage/OpenCV$script_.coverage" NAME="script  Coverage Results" MODIFIED="1512155512222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramming/Video" />
     <SUITE FILE_PATH="coverage/ComputerVision$gray.coverage" NAME="gray Coverage Results" MODIFIED="1527768691574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs" />
@@ -29,32 +37,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenCV-ML/numpy_sample.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenCV-ML/work_with_images_numpy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/flip_and_resize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="525">
+              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+              <folding>
+                <element signature="e#1#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,8 +96,12 @@
         <option value="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/capture_manager.py" />
         <option value="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/cameo.py" />
         <option value="$PROJECT_DIR$/OpenCV-ML/rr.py" />
-        <option value="$PROJECT_DIR$/OpenCV-ML/work_with_images_numpy.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/OpenCV-ML/work_with_images_numpy.py" />
+        <option value="$PROJECT_DIR$/OpenCV-ML/NumpyBaseForImages/work_with_images_numpy.py" />
+        <option value="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/sample.py" />
+        <option value="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/color_maps_and_resize.py" />
+        <option value="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/flip_and_resize.py" />
       </list>
     </option>
   </component>
@@ -122,7 +116,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,10 +128,23 @@
               <item name="ComputerVision" type="462c0819:PsiDirectoryNode" />
               <item name="OpenCV-ML" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ComputerVision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComputerVision" type="462c0819:PsiDirectoryNode" />
+              <item name="OpenCV-ML" type="462c0819:PsiDirectoryNode" />
+              <item name="ImageBasicsOpenCV" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComputerVision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComputerVision" type="462c0819:PsiDirectoryNode" />
+              <item name="OpenCV-ML" type="462c0819:PsiDirectoryNode" />
+              <item name="NumpyBaseForImages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,16 +153,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/OpenCV-ML" />
+      <recent name="$PROJECT_DIR$/PACKT" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/OpenCV-ML/NumpyBaseForImages" />
       <recent name="$PROJECT_DIR$/PACKT/data" />
       <recent name="$PROJECT_DIR$/O`ReillyCV" />
       <recent name="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/data" />
       <recent name="$PROJECT_DIR$/PythonProgramming/Video" />
-      <recent name="$PROJECT_DIR$/PythonProgramming/Images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/OpenCV-ML" />
-      <recent name="$PROJECT_DIR$/PACKT" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -171,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.display_images_in_window">
+  <component name="RunManager" selected="Python.sample">
     <configuration name="BGR_from_bytes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,7 +244,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="harris_corner_detector" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,12 +252,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/O`ReillyCV/LocalImageDescriptors" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/O`ReillyCV/LocalImageDescriptors/harris_corner_detector.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/flip_and_resize.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -260,7 +266,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reading_writing_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="work_with_images_numpy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,12 +274,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-ML" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/reading_writing_image.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-ML/NumpyBaseForImages/work_with_images_numpy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,19 +289,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.harris_corner_detector" />
-      <item itemvalue="Python.reading_writing_image" />
-      <item itemvalue="Python.gray" />
       <item itemvalue="Python.BGR_from_bytes" />
       <item itemvalue="Python.display_images_in_window" />
+      <item itemvalue="Python.gray" />
+      <item itemvalue="Python.work_with_images_numpy" />
+      <item itemvalue="Python.sample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sample" />
+        <item itemvalue="Python.work_with_images_numpy" />
         <item itemvalue="Python.display_images_in_window" />
         <item itemvalue="Python.BGR_from_bytes" />
         <item itemvalue="Python.gray" />
-        <item itemvalue="Python.reading_writing_image" />
-        <item itemvalue="Python.harris_corner_detector" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +316,9 @@
       <option name="presentableId" value="Default" />
       <updated>1505060308536</updated>
       <workItem from="1559553460628" duration="851000" />
-      <workItem from="1559576389683" duration="3243000" />
+      <workItem from="1559576389683" duration="3631000" />
+      <workItem from="1559581987684" duration="13000" />
+      <workItem from="1559654189844" duration="3202000" />
     </task>
     <task id="LOCAL-00001" summary="Thresholding">
       <created>1512296948216</created>
@@ -323,23 +331,24 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4094000" />
+    <option name="totallyTimeSpent" value="7697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27031508" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2769486" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20467186" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20376176" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39967105" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.35261402" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32810867" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32810867" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -348,7 +357,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.36469287" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.36428967" />
       <window_info anchor="right" id="Data View" order="4" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
@@ -626,10 +635,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenCV-ML/rr.py">
+    <entry file="file://$PROJECT_DIR$/OpenCV-ML/rr.py" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        <state relative-caret-position="120">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-ML/data/00-puppy.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-ML/NumpyBaseForImages/work_with_images_numpy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -640,20 +663,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenCV-ML/work_with_images_numpy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/OpenCV-ML/NumpyBaseForImages/numpy_sample.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/flip_and_resize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="525">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <folding>
+            <element signature="e#1#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
