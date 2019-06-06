@@ -49,3 +49,27 @@ hist_mask_values_red = cv2.calcHist([rainbow], channels=[2], mask=mask, histSize
 
 plt.plot(hist_mask_values_red)
 plt.show()
+
+
+def display_img(sample):
+    fig = plt.figure(figsize=(12, 10))
+    ax = fig.add_subplot(111)
+    ax.imshow(sample, cmap='gray')
+    plt.show()
+
+
+gorilla = cv2.imread('../data/gorilla.jpg', 0)
+display_img(gorilla)
+
+hist_values = cv2.calcHist([gorilla], channels=[0], mask=None, histSize=[256], ranges=[0, 256])
+plt.plot(hist_values)
+plt.show()
+
+eq_gorilla = cv2.equalizeHist(gorilla)
+display_img(eq_gorilla)
+
+
+hsv = cv2.cvtColor(gorilla, cv2.COLOR_BGR2HSV)
+hsv[:, :, 2] = cv2.equalizeHist(hsv[:, :, 2])
+eq_color_gorilla = cv2.cvtColor(hsv, cv2.COLOR_HSV2RGB)
+display_img(eq_color_gorilla)
