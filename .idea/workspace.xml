@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab7a285d-52ce-4a05-a2a5-3d72a16abc0b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/ImageProcessing/final.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenCV-ML/Video/connecting_to_camera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenCV-ML/Video/using_video_files.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +38,10 @@
     <SUITE FILE_PATH="coverage/ComputerVision$matplotlib.coverage" NAME="matplotlib Coverage Results" MODIFIED="1527759071784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing" />
     <SUITE FILE_PATH="coverage/ComputerVision$drawing_with_mouse.coverage" NAME="drawing_with_mouse Coverage Results" MODIFIED="1559662125914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV" />
     <SUITE FILE_PATH="coverage/ComputerVision$drawing_on_image.coverage" NAME="drawing_on_image Coverage Results" MODIFIED="1559660386187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV" />
+    <SUITE FILE_PATH="coverage/ComputerVision$using_video_files.coverage" NAME="using_video_files Coverage Results" MODIFIED="1559898534012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/Video" />
     <SUITE FILE_PATH="coverage/ComputerVision$BGR_from_bytes.coverage" NAME="BGR_from_bytes Coverage Results" MODIFIED="1527769003355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs" />
     <SUITE FILE_PATH="coverage/ComputerVision$histograms.coverage" NAME="histograms Coverage Results" MODIFIED="1559834813340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageProcessing" />
+    <SUITE FILE_PATH="coverage/ComputerVision$connecting_to_camera.coverage" NAME="connecting_to_camera Coverage Results" MODIFIED="1559896690274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/Video" />
     <SUITE FILE_PATH="coverage/ComputerVision$gradients.coverage" NAME="gradients Coverage Results" MODIFIED="1559829217572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageProcessing" />
     <SUITE FILE_PATH="coverage/ComputerVision$drawing_with_mouse_2.coverage" NAME="drawing_with_mouse_2 Coverage Results" MODIFIED="1559662869438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV" />
     <SUITE FILE_PATH="coverage/ComputerVision$pil.coverage" NAME="pil Coverage Results" MODIFIED="1527758232634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing" />
@@ -46,30 +49,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV/drawing_with_mouse_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-              <folding>
-                <element signature="e#1#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenCV-ML/ImageProcessing/сolor_processing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#1#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OpenCV-ML/ImageProcessing/blending_and_pasting.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OpenCV-ML/ImageProcessing/histograms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="65" column="10" lean-forward="true" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+            <state relative-caret-position="945">
+              <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
               <folding>
                 <element signature="e#1#11#0" expanded="true" />
               </folding>
@@ -142,11 +121,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OpenCV-ML/ImageProcessing/final.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="450">
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+              <folding>
+                <element signature="e#1#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenCV-ML/Video/connecting_to_camera.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OpenCV-ML/Video/using_video_files.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               <folding>
                 <element signature="e#1#11#0" expanded="true" />
               </folding>
@@ -178,7 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Test.py" />
         <option value="$PROJECT_DIR$/PlayingVideoFromFile.py" />
         <option value="$PROJECT_DIR$/DrawingLine.py" />
         <option value="$PROJECT_DIR$/Drawing.py" />
@@ -228,6 +227,8 @@
         <option value="$PROJECT_DIR$/OpenCV-ML/ImageProcessing/gradients.py" />
         <option value="$PROJECT_DIR$/OpenCV-ML/ImageProcessing/histograms.py" />
         <option value="$PROJECT_DIR$/OpenCV-ML/ImageProcessing/final.py" />
+        <option value="$PROJECT_DIR$/OpenCV-ML/Video/connecting_to_camera.py" />
+        <option value="$PROJECT_DIR$/OpenCV-ML/Video/using_video_files.py" />
       </list>
     </option>
   </component>
@@ -242,7 +243,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,24 +259,19 @@
               <item name="ComputerVision" type="b2602c69:ProjectViewProjectNode" />
               <item name="ComputerVision" type="462c0819:PsiDirectoryNode" />
               <item name="OpenCV-ML" type="462c0819:PsiDirectoryNode" />
-              <item name="ImageBasicsOpenCV" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComputerVision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComputerVision" type="462c0819:PsiDirectoryNode" />
-              <item name="OpenCV-ML" type="462c0819:PsiDirectoryNode" />
-              <item name="ImageProcessing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComputerVision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComputerVision" type="462c0819:PsiDirectoryNode" />
-              <item name="OpenCV-ML" type="462c0819:PsiDirectoryNode" />
               <item name="NumpyBaseForImages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComputerVision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComputerVision" type="462c0819:PsiDirectoryNode" />
+              <item name="OpenCV-ML" type="462c0819:PsiDirectoryNode" />
+              <item name="Video" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,8 +304,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.final">
-    <configuration name="blurring_and_smoothing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.using_video_files">
+    <configuration name="connecting_to_camera" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -318,12 +313,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-ML/ImageProcessing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-ML/Video" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-ML/ImageProcessing/blurring_and_smoothing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-ML/Video/connecting_to_camera.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -398,7 +393,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="morphological_operations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="using_video_files" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -406,12 +401,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-ML/ImageProcessing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-ML/Video" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-ML/ImageProcessing/morphological_operations.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-ML/Video/using_video_files.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -421,19 +416,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.blurring_and_smoothing" />
-      <item itemvalue="Python.morphological_operations" />
       <item itemvalue="Python.gradients" />
       <item itemvalue="Python.histograms" />
       <item itemvalue="Python.final" />
+      <item itemvalue="Python.connecting_to_camera" />
+      <item itemvalue="Python.using_video_files" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.using_video_files" />
+        <item itemvalue="Python.connecting_to_camera" />
         <item itemvalue="Python.final" />
         <item itemvalue="Python.histograms" />
         <item itemvalue="Python.gradients" />
-        <item itemvalue="Python.morphological_operations" />
-        <item itemvalue="Python.blurring_and_smoothing" />
       </list>
     </recent_temporary>
   </component>
@@ -456,7 +451,8 @@
       <workItem from="1559751910252" duration="1050000" />
       <workItem from="1559810798357" duration="1235000" />
       <workItem from="1559823613460" duration="9431000" />
-      <workItem from="1559889663880" duration="2040000" />
+      <workItem from="1559889663880" duration="6072000" />
+      <workItem from="1560172991138" duration="348000" />
     </task>
     <task id="LOCAL-00001" summary="Thresholding">
       <created>1512296948216</created>
@@ -469,24 +465,23 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35707000" />
+    <option name="totallyTimeSpent" value="40087000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16915423" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1708126" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20376176" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20376176" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39967105" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.35261402" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.21630093" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.21630093" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -495,7 +490,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.24709785" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.31177446" />
       <window_info anchor="right" id="Data View" order="4" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
@@ -508,20 +503,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Thresholding" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PythonProgramming/Images/Try.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonProgramming/Video/script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonProgramming/Video/video.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -879,17 +860,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OpenCV-ML/ImageProcessing/histograms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="65" column="10" lean-forward="true" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+        <state relative-caret-position="945">
+          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
           <folding>
             <element signature="e#1#11#0" expanded="true" />
           </folding>
@@ -898,8 +872,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OpenCV-ML/ImageProcessing/final.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="450">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-ML/Video/connecting_to_camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-ML/Video/using_video_files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="e#1#11#0" expanded="true" />
           </folding>
