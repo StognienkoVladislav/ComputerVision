@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab7a285d-52ce-4a05-a2a5-3d72a16abc0b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/ObjectDetection/watershed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenCV-ML/ObjectDetection/custom_watershed_seeds.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ComputerVision$grid_detection.coverage" NAME="grid_detection Coverage Results" MODIFIED="1560519005727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
     <SUITE FILE_PATH="coverage/ComputerVision$contour_detection.coverage" NAME="contour_detection Coverage Results" MODIFIED="1560522089456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
+    <SUITE FILE_PATH="coverage/ComputerVision$custom_watershed_seeds.coverage" NAME="custom_watershed_seeds Coverage Results" MODIFIED="1560959619302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
     <SUITE FILE_PATH="coverage/ComputerVision$gray.coverage" NAME="gray Coverage Results" MODIFIED="1527768691574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs" />
     <SUITE FILE_PATH="coverage/ComputerVision$cv2_separete_image.coverage" NAME="cv2_separete_image Coverage Results" MODIFIED="1559659463782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV" />
     <SUITE FILE_PATH="coverage/ComputerVision$watershed.coverage" NAME="watershed Coverage Results" MODIFIED="1560954852855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
@@ -79,24 +80,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenCV-ML/Video/drawing_on_live_camera.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenCV-ML/Video/final_video_assessment.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectDetection/template_matching.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -169,14 +152,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectDetection/watershed.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+            <state relative-caret-position="666">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="e#1#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectDetection/custom_watershed_seeds.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="49" column="49" lean-forward="true" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+              <folding>
+                <element signature="e#1#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/matplotlib/cm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="164" column="37" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -199,13 +203,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tab</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PythonProgramming/TemplateMatching/Templates.py" />
         <option value="$PROJECT_DIR$/PythonProgramming/Thresholding/Thresholding.py" />
         <option value="$PROJECT_DIR$/PythonProgramming/ColorFiltering/colorFiltering.py" />
         <option value="$PROJECT_DIR$/PythonProgramming/ColorFiltering/Gradients.py" />
@@ -256,6 +264,7 @@
         <option value="$PROJECT_DIR$/OpenCV-ML/ObjectDetection/contour_detection.py" />
         <option value="$PROJECT_DIR$/OpenCV-ML/ObjectDetection/feature_matching.py" />
         <option value="$PROJECT_DIR$/OpenCV-ML/ObjectDetection/watershed.py" />
+        <option value="$PROJECT_DIR$/OpenCV-ML/ObjectDetection/custom_watershed_seeds.py" />
       </list>
     </option>
   </component>
@@ -325,7 +334,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.watershed">
+  <component name="RunManager" selected="Python.custom_watershed_seeds">
     <configuration name="contour_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -348,7 +357,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="edge_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="custom_watershed_seeds" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -361,7 +370,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-ML/ObjectDetection/edge_detection.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-ML/ObjectDetection/custom_watershed_seeds.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -437,19 +446,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.edge_detection" />
       <item itemvalue="Python.grid_detection" />
       <item itemvalue="Python.contour_detection" />
       <item itemvalue="Python.feature_matching" />
       <item itemvalue="Python.watershed" />
+      <item itemvalue="Python.custom_watershed_seeds" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.custom_watershed_seeds" />
         <item itemvalue="Python.watershed" />
         <item itemvalue="Python.feature_matching" />
         <item itemvalue="Python.contour_detection" />
         <item itemvalue="Python.grid_detection" />
-        <item itemvalue="Python.edge_detection" />
       </list>
     </recent_temporary>
   </component>
@@ -480,7 +489,7 @@
       <workItem from="1560412443015" duration="313000" />
       <workItem from="1560419587061" duration="1205000" />
       <workItem from="1560504688329" duration="6649000" />
-      <workItem from="1560937030502" duration="9597000" />
+      <workItem from="1560937030502" duration="13792000" />
     </task>
     <task id="LOCAL-00001" summary="Thresholding">
       <created>1512296948216</created>
@@ -493,10 +502,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70636000" />
+    <option name="totallyTimeSpent" value="74831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16473189" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -518,7 +528,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.41072416" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.3360973" />
       <window_info anchor="right" id="Data View" order="4" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
@@ -531,19 +541,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Thresholding" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/matplotlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
-          <folding>
-            <element signature="e#1#22#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/O`ReillyCV/data/images.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/averaging_images.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -958,8 +955,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectDetection/watershed.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+        <state relative-caret-position="666">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/matplotlib/cm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="164" column="37" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectDetection/custom_watershed_seeds.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="49" column="49" lean-forward="true" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
           <folding>
             <element signature="e#1#11#0" expanded="true" />
           </folding>
