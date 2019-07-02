@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab7a285d-52ce-4a05-a2a5-3d72a16abc0b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/ObjectDetection/detection_assessment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenCV-ML/ObjectTracking/optical_flow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenCV-ML/ObjectTracking/optical_flow_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,6 +21,7 @@
     <SUITE FILE_PATH="coverage/ComputerVision$gray.coverage" NAME="gray Coverage Results" MODIFIED="1527768691574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs" />
     <SUITE FILE_PATH="coverage/ComputerVision$cv2_separete_image.coverage" NAME="cv2_separete_image Coverage Results" MODIFIED="1559659463782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV" />
     <SUITE FILE_PATH="coverage/ComputerVision$watershed.coverage" NAME="watershed Coverage Results" MODIFIED="1560954852855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
+    <SUITE FILE_PATH="coverage/ComputerVision$optical_flow_2.coverage" NAME="optical_flow_2 Coverage Results" MODIFIED="1562070707483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectTracking" />
     <SUITE FILE_PATH="coverage/OpenCV$Gradients.coverage" NAME="Gradients Coverage Results" MODIFIED="1513856355652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramming/ColorFiltering" />
     <SUITE FILE_PATH="coverage/ComputerVision$harris_corner_detector.coverage" NAME="harris_corner_detector Coverage Results" MODIFIED="1527766845402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`ReillyCV/LocalImageDescriptors" />
     <SUITE FILE_PATH="coverage/ComputerVision$corner_detection.coverage" NAME="corner_detection Coverage Results" MODIFIED="1560354699926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
@@ -57,6 +59,7 @@
     <SUITE FILE_PATH="coverage/ComputerVision$template_matching.coverage" NAME="template_matching Coverage Results" MODIFIED="1560346426773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
     <SUITE FILE_PATH="coverage/ComputerVision$pil.coverage" NAME="pil Coverage Results" MODIFIED="1527758232634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing" />
     <SUITE FILE_PATH="coverage/OpenCV$Test.coverage" NAME="Test Coverage Results" MODIFIED="1512155556837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ComputerVision$optical_flow.coverage" NAME="optical_flow Coverage Results" MODIFIED="1562060070262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectTracking" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -74,24 +77,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenCV-ML/Video/connecting_to_camera.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenCV-ML/Video/drawing_on_live_camera.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OpenCV-ML/Video/using_video_files.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -164,7 +149,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectDetection/face_detection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
+            <state relative-caret-position="315">
               <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
               <folding>
                 <element signature="e#1#11#0" expanded="true" />
@@ -173,11 +158,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectDetection/detection_assessment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#1#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectTracking/optical_flow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-79">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#1#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectTracking/optical_flow_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#1#11#0" expanded="true" />
               </folding>
@@ -205,8 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PythonProgramming/ColorFiltering/Gradients.py" />
-        <option value="$PROJECT_DIR$/O`ReillyCV.py" />
         <option value="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/pil.py" />
         <option value="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/matplotlib.py" />
         <option value="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/grayscale.py" />
@@ -256,6 +263,8 @@
         <option value="$PROJECT_DIR$/OpenCV-ML/ObjectDetection/custom_watershed_seeds.py" />
         <option value="$PROJECT_DIR$/OpenCV-ML/ObjectDetection/face_detection.py" />
         <option value="$PROJECT_DIR$/OpenCV-ML/ObjectDetection/detection_assessment.py" />
+        <option value="$PROJECT_DIR$/OpenCV-ML/ObjectTracking/optical_flow.py" />
+        <option value="$PROJECT_DIR$/OpenCV-ML/ObjectTracking/optical_flow_2.py" />
       </list>
     </option>
   </component>
@@ -270,6 +279,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,20 +296,13 @@
               <item name="ComputerVision" type="b2602c69:ProjectViewProjectNode" />
               <item name="ComputerVision" type="462c0819:PsiDirectoryNode" />
               <item name="OpenCV-ML" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComputerVision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComputerVision" type="462c0819:PsiDirectoryNode" />
-              <item name="OpenCV-ML" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="haarcascades" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComputerVision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComputerVision" type="462c0819:PsiDirectoryNode" />
-              <item name="OpenCV-ML" type="462c0819:PsiDirectoryNode" />
               <item name="ObjectDetection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComputerVision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComputerVision" type="462c0819:PsiDirectoryNode" />
+              <item name="OpenCV-ML" type="462c0819:PsiDirectoryNode" />
+              <item name="ObjectTracking" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ComputerVision" type="b2602c69:ProjectViewProjectNode" />
@@ -311,7 +314,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,29 +347,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.detection_assessment">
-    <configuration name="custom_watershed_seeds" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-ML/ObjectDetection/custom_watershed_seeds.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.optical_flow_2">
     <configuration name="detection_assessment" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -382,28 +362,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-ML/ObjectDetection/detection_assessment.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="drawing_on_live_camera" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-ML/Video" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-ML/Video/drawing_on_live_camera.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -456,20 +414,64 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="optical_flow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-ML/ObjectTracking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-ML/ObjectTracking/optical_flow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="optical_flow_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-ML/ObjectTracking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-ML/ObjectTracking/optical_flow_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.custom_watershed_seeds" />
       <item itemvalue="Python.face_detection" />
-      <item itemvalue="Python.drawing_on_live_camera" />
       <item itemvalue="Python.final_video_assessment" />
       <item itemvalue="Python.detection_assessment" />
+      <item itemvalue="Python.optical_flow" />
+      <item itemvalue="Python.optical_flow_2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.optical_flow_2" />
+        <item itemvalue="Python.optical_flow" />
         <item itemvalue="Python.detection_assessment" />
         <item itemvalue="Python.face_detection" />
         <item itemvalue="Python.final_video_assessment" />
-        <item itemvalue="Python.drawing_on_live_camera" />
-        <item itemvalue="Python.custom_watershed_seeds" />
       </list>
     </recent_temporary>
   </component>
@@ -505,7 +507,8 @@
       <workItem from="1561025148178" duration="10000" />
       <workItem from="1561389349363" duration="3984000" />
       <workItem from="1561459709951" duration="22000" />
-      <workItem from="1561992856099" duration="1893000" />
+      <workItem from="1561992856099" duration="2927000" />
+      <workItem from="1562055806594" duration="7197000" />
     </task>
     <task id="LOCAL-00001" summary="Thresholding">
       <created>1512296948216</created>
@@ -518,24 +521,24 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84578000" />
+    <option name="totallyTimeSpent" value="92809000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20563847" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20784964" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19749217" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19749217" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39967105" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.35261402" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.20898642" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2904911" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -544,7 +547,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.33886126" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.26478717" />
       <window_info anchor="right" id="Data View" order="4" />
       <window_info anchor="right" id="Database" order="5" weight="0.32946378" />
     </layout>
@@ -557,26 +560,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Thresholding" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/scipy_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="33" />
-          <folding>
-            <element signature="e#1#20#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/O`ReillyCV/LocalImageDescriptors/harris_corner_detector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#1#20#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/reading_writing_image.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -977,7 +960,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectDetection/face_detection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
+        <state relative-caret-position="315">
           <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding>
             <element signature="e#1#11#0" expanded="true" />
@@ -987,8 +970,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectDetection/detection_assessment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectTracking/optical_flow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectTracking/optical_flow_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#1#11#0" expanded="true" />
           </folding>
