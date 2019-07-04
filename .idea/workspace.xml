@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab7a285d-52ce-4a05-a2a5-3d72a16abc0b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/ObjectTracking/tracking_apis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenCV-ML/DeepLearning/keras_basics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,54 +12,55 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ComputerVision$detection_assessment.coverage" NAME="detection_assessment Coverage Results" MODIFIED="1561995071459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
-    <SUITE FILE_PATH="coverage/ComputerVision$grid_detection.coverage" NAME="grid_detection Coverage Results" MODIFIED="1560519005727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
-    <SUITE FILE_PATH="coverage/ComputerVision$face_detection.coverage" NAME="face_detection Coverage Results" MODIFIED="1561395105703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
     <SUITE FILE_PATH="coverage/ComputerVision$contour_detection.coverage" NAME="contour_detection Coverage Results" MODIFIED="1560522089456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
     <SUITE FILE_PATH="coverage/ComputerVision$custom_watershed_seeds.coverage" NAME="custom_watershed_seeds Coverage Results" MODIFIED="1560959619302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
     <SUITE FILE_PATH="coverage/ComputerVision$gray.coverage" NAME="gray Coverage Results" MODIFIED="1527768691574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs" />
-    <SUITE FILE_PATH="coverage/ComputerVision$cv2_separete_image.coverage" NAME="cv2_separete_image Coverage Results" MODIFIED="1559659463782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV" />
     <SUITE FILE_PATH="coverage/ComputerVision$watershed.coverage" NAME="watershed Coverage Results" MODIFIED="1560954852855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
-    <SUITE FILE_PATH="coverage/ComputerVision$optical_flow_2.coverage" NAME="optical_flow_2 Coverage Results" MODIFIED="1562070707483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectTracking" />
-    <SUITE FILE_PATH="coverage/OpenCV$Gradients.coverage" NAME="Gradients Coverage Results" MODIFIED="1513856355652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramming/ColorFiltering" />
     <SUITE FILE_PATH="coverage/ComputerVision$harris_corner_detector.coverage" NAME="harris_corner_detector Coverage Results" MODIFIED="1527766845402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`ReillyCV/LocalImageDescriptors" />
     <SUITE FILE_PATH="coverage/ComputerVision$corner_detection.coverage" NAME="corner_detection Coverage Results" MODIFIED="1560354699926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
-    <SUITE FILE_PATH="coverage/ComputerVision$olor_processing.coverage" NAME="сolor_processing Coverage Results" MODIFIED="1559742578865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageProcessing" />
-    <SUITE FILE_PATH="coverage/OpenCV$Thresholding.coverage" NAME="Thresholding Coverage Results" MODIFIED="1513856157600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramming/Thresholding" />
     <SUITE FILE_PATH="coverage/ComputerVision$morphological_operations.coverage" NAME="morphological_operations Coverage Results" MODIFIED="1559827014251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageProcessing" />
     <SUITE FILE_PATH="coverage/ComputerVision$blurring_and_smoothing.coverage" NAME="blurring_and_smoothing Coverage Results" MODIFIED="1559752176772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageProcessing" />
-    <SUITE FILE_PATH="coverage/OpenCV$setup.coverage" NAME="setup Coverage Results" MODIFIED="1512385121556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/gns3-legacy-GNS3-0.8.7" />
-    <SUITE FILE_PATH="coverage/ComputerVision$display_images_in_window.coverage" NAME="display_images_in_window Coverage Results" MODIFIED="1527770551392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs" />
     <SUITE FILE_PATH="coverage/ComputerVision$grayscale.coverage" NAME="grayscale Coverage Results" MODIFIED="1527759578186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing" />
     <SUITE FILE_PATH="coverage/OpenCV$Cam.coverage" NAME="Cam Coverage Results" MODIFIED="1512155498190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramming/Video" />
-    <SUITE FILE_PATH="coverage/OpenCV$colorFiltering.coverage" NAME="colorFiltering Coverage Results" MODIFIED="1513856262277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramming/ColorFiltering" />
     <SUITE FILE_PATH="coverage/ComputerVision$work_with_images_numpy.coverage" NAME="work_with_images_numpy Coverage Results" MODIFIED="1559656935479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML" />
     <SUITE FILE_PATH="coverage/ComputerVision$blending_and_pasting.coverage" NAME="blending_and_pasting Coverage Results" MODIFIED="1559746402105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageProcessing" />
-    <SUITE FILE_PATH="coverage/ComputerVision$scipy.coverage" NAME="scipy Coverage Results" MODIFIED="1527764715212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing" />
-    <SUITE FILE_PATH="coverage/OpenCV$Templates.coverage" NAME="Templates Coverage Results" MODIFIED="1513799549741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramming/TemplateMatching" />
     <SUITE FILE_PATH="coverage/ComputerVision$thresholding.coverage" NAME="thresholding Coverage Results" MODIFIED="1559748182134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageProcessing" />
     <SUITE FILE_PATH="coverage/ComputerVision$sample.coverage" NAME="sample Coverage Results" MODIFIED="1559658048874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV" />
-    <SUITE FILE_PATH="coverage/ComputerVision$final.coverage" NAME="final Coverage Results" MODIFIED="1559892754629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageProcessing" />
     <SUITE FILE_PATH="coverage/ComputerVision$drawing_on_live_camera.coverage" NAME="drawing_on_live_camera Coverage Results" MODIFIED="1561393815750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/Video" />
     <SUITE FILE_PATH="coverage/ComputerVision$reading_writing_image.coverage" NAME="reading_writing_image Coverage Results" MODIFIED="1527768447641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs" />
     <SUITE FILE_PATH="coverage/OpenCV$script_.coverage" NAME="script  Coverage Results" MODIFIED="1512155512222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramming/Video" />
-    <SUITE FILE_PATH="coverage/ComputerVision$tracking_apis.coverage" NAME="tracking_apis Coverage Results" MODIFIED="1562151764405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectTracking" />
     <SUITE FILE_PATH="coverage/ComputerVision$edge_detection.coverage" NAME="edge_detection Coverage Results" MODIFIED="1560506119446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
-    <SUITE FILE_PATH="coverage/ComputerVision$matplotlib.coverage" NAME="matplotlib Coverage Results" MODIFIED="1527759071784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing" />
     <SUITE FILE_PATH="coverage/ComputerVision$drawing_with_mouse.coverage" NAME="drawing_with_mouse Coverage Results" MODIFIED="1559662125914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV" />
-    <SUITE FILE_PATH="coverage/ComputerVision$drawing_on_image.coverage" NAME="drawing_on_image Coverage Results" MODIFIED="1559660386187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV" />
-    <SUITE FILE_PATH="coverage/ComputerVision$using_video_files.coverage" NAME="using_video_files Coverage Results" MODIFIED="1559898534012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/Video" />
     <SUITE FILE_PATH="coverage/ComputerVision$BGR_from_bytes.coverage" NAME="BGR_from_bytes Coverage Results" MODIFIED="1527769003355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs" />
     <SUITE FILE_PATH="coverage/ComputerVision$final_video_assessment.coverage" NAME="final_video_assessment Coverage Results" MODIFIED="1561393828364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/Video" />
     <SUITE FILE_PATH="coverage/ComputerVision$histograms.coverage" NAME="histograms Coverage Results" MODIFIED="1559834813340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageProcessing" />
     <SUITE FILE_PATH="coverage/ComputerVision$connecting_to_camera.coverage" NAME="connecting_to_camera Coverage Results" MODIFIED="1559896690274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/Video" />
-    <SUITE FILE_PATH="coverage/ComputerVision$feature_matching.coverage" NAME="feature_matching Coverage Results" MODIFIED="1560947280677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
+    <SUITE FILE_PATH="coverage/ComputerVision$keras_basics.coverage" NAME="keras_basics Coverage Results" MODIFIED="1562251145820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/DeepLearning" />
     <SUITE FILE_PATH="coverage/ComputerVision$gradients.coverage" NAME="gradients Coverage Results" MODIFIED="1559829217572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageProcessing" />
     <SUITE FILE_PATH="coverage/ComputerVision$drawing_with_mouse_2.coverage" NAME="drawing_with_mouse_2 Coverage Results" MODIFIED="1559662869438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV" />
     <SUITE FILE_PATH="coverage/ComputerVision$template_matching.coverage" NAME="template_matching Coverage Results" MODIFIED="1560346426773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
-    <SUITE FILE_PATH="coverage/ComputerVision$pil.coverage" NAME="pil Coverage Results" MODIFIED="1527758232634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing" />
     <SUITE FILE_PATH="coverage/OpenCV$Test.coverage" NAME="Test Coverage Results" MODIFIED="1512155556837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ComputerVision$optical_flow.coverage" NAME="optical_flow Coverage Results" MODIFIED="1562151412129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectTracking" />
+    <SUITE FILE_PATH="coverage/ComputerVision$detection_assessment.coverage" NAME="detection_assessment Coverage Results" MODIFIED="1561995071459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
+    <SUITE FILE_PATH="coverage/ComputerVision$grid_detection.coverage" NAME="grid_detection Coverage Results" MODIFIED="1560519005727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
+    <SUITE FILE_PATH="coverage/ComputerVision$face_detection.coverage" NAME="face_detection Coverage Results" MODIFIED="1561395105703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
+    <SUITE FILE_PATH="coverage/ComputerVision$cv2_separete_image.coverage" NAME="cv2_separete_image Coverage Results" MODIFIED="1559659463782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV" />
+    <SUITE FILE_PATH="coverage/ComputerVision$optical_flow_2.coverage" NAME="optical_flow_2 Coverage Results" MODIFIED="1562070707483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectTracking" />
+    <SUITE FILE_PATH="coverage/OpenCV$Gradients.coverage" NAME="Gradients Coverage Results" MODIFIED="1513856355652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramming/ColorFiltering" />
+    <SUITE FILE_PATH="coverage/ComputerVision$olor_processing.coverage" NAME="сolor_processing Coverage Results" MODIFIED="1559742578865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageProcessing" />
+    <SUITE FILE_PATH="coverage/OpenCV$Thresholding.coverage" NAME="Thresholding Coverage Results" MODIFIED="1513856157600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramming/Thresholding" />
+    <SUITE FILE_PATH="coverage/OpenCV$setup.coverage" NAME="setup Coverage Results" MODIFIED="1512385121556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/gns3-legacy-GNS3-0.8.7" />
+    <SUITE FILE_PATH="coverage/ComputerVision$display_images_in_window.coverage" NAME="display_images_in_window Coverage Results" MODIFIED="1527770551392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs" />
+    <SUITE FILE_PATH="coverage/OpenCV$colorFiltering.coverage" NAME="colorFiltering Coverage Results" MODIFIED="1513856262277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramming/ColorFiltering" />
+    <SUITE FILE_PATH="coverage/ComputerVision$scipy.coverage" NAME="scipy Coverage Results" MODIFIED="1527764715212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing" />
+    <SUITE FILE_PATH="coverage/OpenCV$Templates.coverage" NAME="Templates Coverage Results" MODIFIED="1513799549741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramming/TemplateMatching" />
+    <SUITE FILE_PATH="coverage/ComputerVision$final.coverage" NAME="final Coverage Results" MODIFIED="1559892754629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageProcessing" />
+    <SUITE FILE_PATH="coverage/ComputerVision$tracking_apis.coverage" NAME="tracking_apis Coverage Results" MODIFIED="1562151764405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectTracking" />
+    <SUITE FILE_PATH="coverage/ComputerVision$matplotlib.coverage" NAME="matplotlib Coverage Results" MODIFIED="1527759071784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing" />
+    <SUITE FILE_PATH="coverage/ComputerVision$drawing_on_image.coverage" NAME="drawing_on_image Coverage Results" MODIFIED="1559660386187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ImageBasicsOpenCV" />
+    <SUITE FILE_PATH="coverage/ComputerVision$using_video_files.coverage" NAME="using_video_files Coverage Results" MODIFIED="1559898534012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/Video" />
+    <SUITE FILE_PATH="coverage/ComputerVision$feature_matching.coverage" NAME="feature_matching Coverage Results" MODIFIED="1560947280677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
+    <SUITE FILE_PATH="coverage/ComputerVision$pil.coverage" NAME="pil Coverage Results" MODIFIED="1527758232634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -77,18 +78,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectDetection/grid_detection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="e#1#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectDetection/contour_detection.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -152,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectTracking/optical_flow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="240">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#1#11#0" expanded="true" />
               </folding>
@@ -176,8 +165,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectTracking/mean_shift_and_cam_shift.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="720">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="e#1#11#0" expanded="true" />
               </folding>
@@ -185,11 +174,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectTracking/tracking_apis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+            <state relative-caret-position="675">
+              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OpenCV-ML/DeepLearning/keras_basics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="597">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="e#1#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -214,7 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/grayscale.py" />
         <option value="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/averaging_images.py" />
         <option value="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/scipy.py" />
         <option value="$PROJECT_DIR$/O`ReillyCV/BasicImageHandlingAndProcessing/scipy_example.py" />
@@ -265,6 +265,7 @@
         <option value="$PROJECT_DIR$/OpenCV-ML/ObjectTracking/optical_flow_2.py" />
         <option value="$PROJECT_DIR$/OpenCV-ML/ObjectTracking/mean_shift_and_cam_shift.py" />
         <option value="$PROJECT_DIR$/OpenCV-ML/ObjectTracking/tracking_apis.py" />
+        <option value="$PROJECT_DIR$/OpenCV-ML/DeepLearning/keras_basics.py" />
       </list>
     </option>
   </component>
@@ -279,7 +280,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -296,6 +296,12 @@
               <item name="ComputerVision" type="b2602c69:ProjectViewProjectNode" />
               <item name="ComputerVision" type="462c0819:PsiDirectoryNode" />
               <item name="OpenCV-ML" type="462c0819:PsiDirectoryNode" />
+              <item name="ImageBasicsOpenCV" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComputerVision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComputerVision" type="462c0819:PsiDirectoryNode" />
+              <item name="OpenCV-ML" type="462c0819:PsiDirectoryNode" />
               <item name="ObjectTracking" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -307,6 +313,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,7 +347,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tracking_apis">
+  <component name="RunManager" selected="Python.keras_basics">
     <configuration name="detection_assessment" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -363,7 +370,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="face_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="keras_basics" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -371,12 +378,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-ML/DeepLearning" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-ML/ObjectDetection/face_detection.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-ML/DeepLearning/keras_basics.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -452,19 +459,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.face_detection" />
       <item itemvalue="Python.detection_assessment" />
       <item itemvalue="Python.optical_flow" />
       <item itemvalue="Python.optical_flow_2" />
       <item itemvalue="Python.tracking_apis" />
+      <item itemvalue="Python.keras_basics" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.keras_basics" />
         <item itemvalue="Python.tracking_apis" />
         <item itemvalue="Python.optical_flow" />
         <item itemvalue="Python.optical_flow_2" />
         <item itemvalue="Python.detection_assessment" />
-        <item itemvalue="Python.face_detection" />
       </list>
     </recent_temporary>
   </component>
@@ -502,7 +509,8 @@
       <workItem from="1561459709951" duration="22000" />
       <workItem from="1561992856099" duration="2927000" />
       <workItem from="1562055806594" duration="12881000" />
-      <workItem from="1562145740215" duration="2532000" />
+      <workItem from="1562145740215" duration="4428000" />
+      <workItem from="1562230237915" duration="5857000" />
     </task>
     <task id="LOCAL-00001" summary="Thresholding">
       <created>1512296948216</created>
@@ -515,23 +523,24 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101025000" />
+    <option name="totallyTimeSpent" value="108778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2100608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21227197" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19749217" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19749217" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39967105" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.35261402" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2904911" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2904911" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -553,9 +562,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Thresholding" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PACKT/data/MyPicGray.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/PACKT/data/RandomGray.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -958,6 +964,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectTracking/optical_flow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectTracking/optical_flow_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -970,18 +986,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectTracking/mean_shift_and_cam_shift.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#1#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectTracking/optical_flow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="720">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="e#1#11#0" expanded="true" />
           </folding>
@@ -990,8 +996,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectTracking/tracking_apis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        <state relative-caret-position="675">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-ML/DeepLearning/keras_basics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
