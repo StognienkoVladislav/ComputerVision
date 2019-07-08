@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab7a285d-52ce-4a05-a2a5-3d72a16abc0b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/OpenCV-ML/DeepLearning/deep_learning_on_custom_images.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenCV-ML/DeepLearning/fashion_mnist.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ComputerVision$fashion_mnist.coverage" NAME="fashion_mnist Coverage Results" MODIFIED="1562583647833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/DeepLearning" />
     <SUITE FILE_PATH="coverage/ComputerVision$contour_detection.coverage" NAME="contour_detection Coverage Results" MODIFIED="1560522089456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
     <SUITE FILE_PATH="coverage/ComputerVision$custom_watershed_seeds.coverage" NAME="custom_watershed_seeds Coverage Results" MODIFIED="1560959619302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-ML/ObjectDetection" />
     <SUITE FILE_PATH="coverage/ComputerVision$gray.coverage" NAME="gray Coverage Results" MODIFIED="1527768691574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs" />
@@ -81,18 +81,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectDetection/face_detection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-              <folding>
-                <element signature="e#1#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OpenCV-ML/ObjectDetection/detection_assessment.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -186,11 +174,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OpenCV-ML/DeepLearning/deep_learning_on_custom_images.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="132">
+              <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+              <folding>
+                <element signature="e#1#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OpenCV-ML/DeepLearning/fashion_mnist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
               <folding>
                 <element signature="e#1#11#0" expanded="true" />
               </folding>
@@ -218,7 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/O`ReillyCV/LocalImageDescriptors/harris_corner_detector.py" />
         <option value="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/reading_writing_image.py" />
         <option value="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/gray.py" />
         <option value="$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/BGR_from_bytes.py" />
@@ -269,6 +268,7 @@
         <option value="$PROJECT_DIR$/OpenCV-ML/DeepLearning/convolutional_neural_networks.py" />
         <option value="$PROJECT_DIR$/OpenCV-ML/DeepLearning/CNN_CIFAR_10.py" />
         <option value="$PROJECT_DIR$/OpenCV-ML/DeepLearning/deep_learning_on_custom_images.py" />
+        <option value="$PROJECT_DIR$/OpenCV-ML/DeepLearning/fashion_mnist.py" />
       </list>
     </option>
   </component>
@@ -300,21 +300,6 @@
               <item name="ComputerVision" type="462c0819:PsiDirectoryNode" />
               <item name="OpenCV-ML" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComputerVision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComputerVision" type="462c0819:PsiDirectoryNode" />
-              <item name="OpenCV-ML" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="CATS_DOGS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComputerVision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComputerVision" type="462c0819:PsiDirectoryNode" />
-              <item name="OpenCV-ML" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="CATS_DOGS" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ComputerVision" type="b2602c69:ProjectViewProjectNode" />
@@ -377,7 +362,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.deep_learning_on_custom_images">
+  <component name="RunManager" selected="Python.fashion_mnist">
     <configuration name="CNN_CIFAR_10" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -444,6 +429,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="fashion_mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-ML/DeepLearning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-ML/DeepLearning/fashion_mnist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="keras_basics" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -466,42 +473,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tracking_apis" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-ML/ObjectTracking" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-ML/ObjectTracking/tracking_apis.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.tracking_apis" />
       <item itemvalue="Python.keras_basics" />
       <item itemvalue="Python.convolutional_neural_networks" />
       <item itemvalue="Python.CNN_CIFAR_10" />
       <item itemvalue="Python.deep_learning_on_custom_images" />
+      <item itemvalue="Python.fashion_mnist" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fashion_mnist" />
         <item itemvalue="Python.deep_learning_on_custom_images" />
         <item itemvalue="Python.CNN_CIFAR_10" />
         <item itemvalue="Python.convolutional_neural_networks" />
         <item itemvalue="Python.keras_basics" />
-        <item itemvalue="Python.tracking_apis" />
       </list>
     </recent_temporary>
   </component>
@@ -542,7 +527,7 @@
       <workItem from="1562145740215" duration="4428000" />
       <workItem from="1562230237915" duration="6657000" />
       <workItem from="1562316649390" duration="7194000" />
-      <workItem from="1562575389998" duration="4798000" />
+      <workItem from="1562575389998" duration="6691000" />
     </task>
     <task id="LOCAL-00001" summary="Thresholding">
       <created>1512296948216</created>
@@ -555,18 +540,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121570000" />
+    <option name="totallyTimeSpent" value="123463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21669431" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21669431" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2863114" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32497388" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39967105" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -594,40 +578,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Thresholding" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/capture_manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="167" selection-start-line="167" selection-end-line="167" />
-          <folding>
-            <element signature="e#74#4262#0" />
-            <element signature="e#183#642#0" />
-            <element signature="e#689#709#0" />
-            <element signature="e#769#860#0" />
-            <element signature="e#808#860#0" />
-            <element signature="e#905#1032#0" />
-            <element signature="e#1086#1124#0" />
-            <element signature="e#1178#1216#0" />
-            <element signature="e#1252#1551#0" />
-            <element signature="e#1586#2829#0" />
-            <element signature="e#1656#1705#0" />
-            <element signature="e#1804#1849#0" />
-            <element signature="e#2013#2122#0" />
-            <element signature="e#2257#2490#0" />
-            <element signature="e#2302#2412#0" />
-            <element signature="e#2578#2662#0" />
-            <element signature="e#2875#2965#0" />
-            <element signature="e#3097#3225#0" />
-            <element signature="e#3267#3419#0" />
-            <element signature="e#3462#4262#0" />
-            <element signature="e#3560#4217#0" />
-            <element signature="e#3645#3944#0" />
-            <element signature="e#3761#3878#0" />
-            <element signature="e#3761#3804#0" />
-            <element signature="e#3965#4084#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PACKT/HandlingFilesCamerasAndGUIs/display_camera_frames.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1049,8 +999,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OpenCV-ML/DeepLearning/deep_learning_on_custom_images.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="132">
+          <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-ML/DeepLearning/fashion_mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
           <folding>
             <element signature="e#1#11#0" expanded="true" />
           </folding>
